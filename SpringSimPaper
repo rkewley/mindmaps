@@ -1,5 +1,339 @@
 {
-  "title": "Press Space or double-click to edit",
+  "title": "SpringSim Paper",
   "id": 1,
-  "formatVersion": 2
+  "formatVersion": 2,
+  "ideas": {
+    "2": {
+      "title": "Soldier Modeling Implementation",
+      "id": 17,
+      "attr": {
+        "position": [
+          127.5,
+          128,
+          9
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Models ",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "Move",
+              "id": 20
+            },
+            "3": {
+              "title": "Target Acquisition",
+              "id": 22
+            },
+            "13": {
+              "title": "Radio Network",
+              "id": 21
+            },
+            "14": {
+              "title": "Awareness",
+              "id": 23
+            }
+          }
+        },
+        "2": {
+          "title": "Data Model",
+          "id": 24,
+          "ideas": {
+            "1": {
+              "title": "ISA/Protobuf",
+              "id": 25
+            },
+            "2": {
+              "title": "MSDL/Immutable XMK",
+              "id": 26
+            },
+            "3": {
+              "title": "POM/Immutable XML",
+              "id": 27
+            },
+            "4": {
+              "title": "Environment/Thrift",
+              "id": 28
+            }
+          }
+        },
+        "3": {
+          "title": "Messaging",
+          "id": 30,
+          "ideas": {
+            "1": {
+              "title": "JNI",
+              "id": 31
+            },
+            "2": {
+              "title": "Thrift",
+              "id": 32
+            },
+            "3": {
+              "title": "ZeroMq",
+              "id": 33
+            },
+            "4": {
+              "title": "Akka",
+              "id": 34
+            }
+          }
+        },
+        "4": {
+          "title": "Terrain Data Services",
+          "id": 35
+        },
+        "5": {
+          "title": "Distributed DEVS Time Warp Enging",
+          "id": 36,
+          "ideas": {
+            "1": {
+              "title": "DEVS Models",
+              "id": 37
+            },
+            "2": {
+              "title": "Parallel timemanagement",
+              "id": 38,
+              "ideas": {
+                "1": {
+                  "title": "Model integration",
+                  "id": 63
+                },
+                "2": {
+                  "title": "Taks Decomposition",
+                  "id": 65
+                },
+                "3": {
+                  "title": "State management",
+                  "id": 66
+                },
+                "4": {
+                  "title": "Concurrency",
+                  "id": 67
+                },
+                "5": {
+                  "title": "Large distributed data sets",
+                  "id": 68
+                }
+              }
+            },
+            "3": {
+              "title": "Actor Model of Computation",
+              "id": 39
+            },
+            "4": {
+              "title": "DEVS Actor w/ Example",
+              "id": 40
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "title": "Results and Products",
+      "id": 43,
+      "ideas": {
+        "1": {
+          "title": "Integrated dismoounted target acq, comms, SA",
+          "id": 48
+        },
+        "2": {
+          "title": "DEVS Engine",
+          "id": 49
+        },
+        "3": {
+          "title": "Terrain Services",
+          "id": 50
+        },
+        "4": {
+          "title": "Acquire TTPM",
+          "id": 51
+        },
+        "5": {
+          "title": "Communications Model",
+          "id": 52
+        }
+      }
+    },
+    "-10": {
+      "title": "Motivation",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "Simulation baggage",
+          "id": 4
+        },
+        "2": {
+          "title": "Challenge of HLA",
+          "id": 6,
+          "attr": {
+            "style": {}
+          }
+        }
+      },
+      "attr": {
+        "position": [
+          56.5,
+          -125,
+          4
+        ],
+        "style": {}
+      }
+    },
+    "-20": {
+      "title": "EASE DMF Conceptual Stack",
+      "id": 3,
+      "ideas": {
+        "3": {
+          "title": "Link to systems architecture",
+          "id": 7,
+          "attr": {
+            "position": [
+              204,
+              -142,
+              6
+            ],
+            "style": {}
+          }
+        },
+        "3.5": {
+          "title": "Akka/DEVS/TimeWarp Engine",
+          "id": 10,
+          "attr": {
+            "position": [
+              207,
+              -89,
+              2
+            ],
+            "style": {}
+          }
+        },
+        "3.75": {
+          "title": "Messaging System",
+          "id": 11,
+          "attr": {
+            "position": [
+              200,
+              -2,
+              3
+            ],
+            "style": {}
+          }
+        },
+        "3.875": {
+          "title": "Data Model",
+          "id": 12,
+          "attr": {
+            "position": [
+              176,
+              56,
+              4
+            ],
+            "style": {}
+          }
+        },
+        "3.9375": {
+          "title": "Model Enpoints",
+          "id": 13,
+          "attr": {
+            "position": [
+              107,
+              141,
+              7
+            ],
+            "style": {}
+          },
+          "ideas": {}
+        },
+        "1.5": {
+          "title": "Design and analysis of experiments",
+          "id": 8,
+          "attr": {
+            "position": [
+              50,
+              165,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "3.625": {
+          "title": "Enterprise Data",
+          "id": 15,
+          "attr": {
+            "position": [
+              236,
+              -25,
+              8
+            ],
+            "style": {}
+          }
+        }
+      },
+      "attr": {
+        "position": [
+          138.5,
+          142,
+          8
+        ],
+        "style": {}
+      }
+    },
+    "-30": {
+      "title": "Future work",
+      "id": 44,
+      "ideas": {
+        "1": {
+          "title": "Parallelization",
+          "id": 45,
+          "ideas": {}
+        },
+        "2": {
+          "title": "Web-based scenarios",
+          "id": 54
+        },
+        "3": {
+          "title": "Additional functionality",
+          "id": 55,
+          "ideas": {
+            "1": {
+              "title": "Terrain reasoning",
+              "id": 56
+            },
+            "2": {
+              "title": "Movement and route planning",
+              "id": 57
+            },
+            "3": {
+              "title": "Interface to C2",
+              "id": 58
+            },
+            "4": {
+              "title": "COP",
+              "id": 59
+            }
+          }
+        },
+        "4": {
+          "title": "Capture architectural patterns to enable DSL and code generation for model and simulation integration",
+          "id": 60,
+          "ideas": {}
+        },
+        "5": {
+          "title": "Develop DOE layer",
+          "id": 62
+        }
+      },
+      "attr": {
+        "position": [
+          183.5,
+          706,
+          10
+        ],
+        "style": {}
+      }
+    }
+  }
 }
